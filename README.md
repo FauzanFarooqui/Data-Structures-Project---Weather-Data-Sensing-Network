@@ -5,11 +5,9 @@ This project was done as part of the "Data Structures and Program Design - 2" co
 It implements AVL Trees as the data structure for recording information coming from environment sensors, which are to record weather data like humidity, wind speed, AQI, etc.
 The project focuses on using AVL trees for the problem statements given as part of the course, rather than other areas of a whole project.
 
-#### Note:
+#### Note: The code is not final - it may be updated later.   
 
-The code is not final - it may be updated later.   
-
-##Gist of the problem statement
+## Gist of the problem statement
 
 Sensors are spread across a city. An "AQI" sensor is a special sensor 
 that records pollutant concentrations and assigns it an AQI based on ranges. According to national standards,
@@ -22,7 +20,7 @@ which pollutant was the factor.
 Appropriate AVL data structures were made for the above 3, i.e "Sensor" to store properties of a sensor,
 "AQI Sensor", an adapted version for AQI, and a "Central repository" for the actual data tracking.
 
-###Various functionalities were implemented on the above:
+### Various functionalities were implemented on the above:
 
 Apart from the standard addition, deletion, searching of the above records:
 * Installing a sensor in-between stations.
@@ -30,7 +28,7 @@ Apart from the standard addition, deletion, searching of the above records:
 * Displaying information on days where "Hazardous" AQI status was recorded
 * Searching central repository data based on some sensor information 
 
-##Project files
+## Project files
 
 * declrns.h: Contains all structure and function declarations
 * declrns.c: Additional Date-time input/output function definitions.
@@ -39,7 +37,7 @@ Apart from the standard addition, deletion, searching of the above records:
 * AQI.c: Functions related to both AQI sensor database and AQI repository.
 * main.c: Just the driver code needed to demonstrate the above.
 
-##Command-line commands
+## Command-line commands
 
 **Compilation:** gcc main.c declrns.c sensor.c repo.c AQI.c -o main
 
