@@ -14,8 +14,8 @@ that records pollutant concentrations and assigns it an AQI based on ranges. Acc
 8 pollutants are measured and the highest corresponding AQI is taken as the overall AQI.
 Data coming from sensors has to be recorded at some central repository of information. This "repo"
 records the actual value, the date and time of the record, and the ID of the sensor that sent the
-information. For the sake of simplicity, the same repository was used to track the (overall) AQI, but not 
-which pollutant was the factor.
+information. For the sake of simplicity, the same repository strucutre was used to track the (overall) AQI, but not 
+which pollutant was the factor. However, it's repository is kept seperate from the main repo.
 
 Appropriate AVL data structures were made for the above 3, i.e "Sensor" to store properties of a sensor,
 "AQI Sensor", an adapted version for AQI, and a "Central repository" for the actual data tracking.
