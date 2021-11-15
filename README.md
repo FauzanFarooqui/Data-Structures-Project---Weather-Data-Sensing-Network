@@ -1,4 +1,4 @@
-#Weather Data Sensing Network
+#Data Structures Project - Weather Data Sensing Network
 
 This project was done as part of the "Data Structures and Program Design - 2" course at at the Computer Science and Engineering Department of VNIT, Nagpur, India.
 It implements AVL Trees as the data structure for recording information coming from environment sensors,
