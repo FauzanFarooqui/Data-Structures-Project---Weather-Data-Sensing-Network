@@ -2,7 +2,7 @@
 Name: Fauzan Nayeem Farooqui
 Program: Weather Data Sensing Network 
 Concept illustration: AVL Trees Data Structure
-This project was done as part of the "Data Structures and Program Design - 2" course at VNIT, Nagpur, India. 
+This project was done as part of the "Data Structures and Program Design - 2" course at at the CSE Department of VNIT, Nagpur, India.
 Date: 18/4/2021
 Please refer to the README for the command line compilation command. 
 Some explanations and assumptions:
